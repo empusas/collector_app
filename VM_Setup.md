@@ -40,7 +40,7 @@ Enter the work directory you created in the previous step.
 
 Clone the Repository in this directory with GIT:
 
-`git clone https://github.com/libgit2/libgit2`
+`git clone git@github.com:empusas/collector_app.git`
 
 ## Build the development VM with Vagrant ##
 
