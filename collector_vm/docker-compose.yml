@@ -1,0 +1,13 @@
+version: "3"
+
+services:
+  fw_auto_app:
+    build:
+      context: .
+    volumes:
+      - ./collector_app:/collector_app
+    command:
+      - sh
+      - -c
+      - |
+        /collector_app/execute.sh

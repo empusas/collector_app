@@ -1,0 +1,8 @@
+# from galaxy we install the required ansible collections
+collections:
+- name: netbox.netbox
+  version: '>=3.1.2,<3.2.0'
+- name: cisco.asa
+  version: '>=2.1.0,<2.2.0'
+- name: cisco.ios
+  version: '>=2.5.0,<2.6.0'
